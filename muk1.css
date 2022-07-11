@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+/*-------the about page starts here-------*/
+
+/*----below is the header-----*/
+.bgimg{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url('./banner.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center; 
+}
+.links{
+    flex: 1;
+    text-align: right;
+}
+.links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.links ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial Nova;
+}
+.main1{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    text-align: center;
+}
+.main1 h1{
+    font-size: 70px;
+}
+.main1 p{
+    font-size: 20px;
+    margin: 10px 0 40px;
+    color: white;
+}
+.button1{
+   display: inline-block;
+   text-decoration: none;
+   color: white;
+   border: 1px solid #fff;
+   padding: 12px 34px;
+   font-size: 20px;
+   background: transparent;
+   position: relative;
+   cursor: pointer;
+}
+/*--------page one header stops here------*/
+
+/*----------programmes offered start here------*/
+.courseoffered{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.prog{
+    flex-basis: 31%;
+    background-color: skyblue;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+/*------programmes offered stop here*/
+
+/*-----Sports begin here------*/
+.other{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+.prog1{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.prog1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+/*-----Sports end here-----*/
+
+/*----urging students to enroll-----*/
+.bgimg1{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('./banner1.jpeg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.bgimg1 h1{
+    color: white;
+    margin-bottom: 40px;
+    padding: 0;
+}
+/*-----done with enrolling-----*/
+
+/*------beginning of the pagefooter------*/
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    margin-top: 20px;
+    margin-bottom: 25px;
+} 
+.socials{
+    padding: 20px 0;
+}
+
+/*------end of the pagefooter----*/
+/*-------the about page ends here-------*/
+
+/*-------the about page starts here-------*/
+.bgimg2{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('./backgrnd.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.about{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.aboutus{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.aboutus img{
+    width: 100%;
+}
+.aboutus h1{
+    padding-top: 0;
+}
+.aboutus p{
+    padding: 15px 0 25px;
+}
+.button2{
+    display: inline-block;
+   text-decoration: none;
+   color: blue;
+   border: 1px solid blue;
+   padding: 12px 34px;
+   font-size: 20px;
+   background: transparent;
+   position: relative;
+   cursor: pointer;
+}
+/*---------the about page stops here------*/
+
+/*-------the blog page starts here-----*/
+.blogger{
+    text-align: center;
+    margin: auto;
+    padding-top: 5%;
+}
+/*------the blog page ends here----*/
+
+/*------the gallery page classes------*/
+.gallery1{
+    text-align: center;
+}
+/*-----the gallery page classes----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
